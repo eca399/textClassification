@@ -2,6 +2,8 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.*;
 
+import javax.print.attribute.standard.PrinterLocation;
+
 import cc.mallet.classify.Classifier;
 import cc.mallet.classify.ClassifierTrainer;
 import cc.mallet.classify.NaiveBayesTrainer;
@@ -46,7 +48,7 @@ public class ImportExample {
 
         // Rather than storing tokens as strings, convert 
         //  them to integers by looking them up in an alphabet.
-        pipeList.add(new TokenSequence2FeatureSequence());
+        //pipeList.add(new TokenSequence2FeatureSequence());
 
         // Do the same thing for the "target" field: 
         //  convert a class label string to a Label object,
@@ -55,7 +57,7 @@ public class ImportExample {
 
         // Now convert the sequence of features to a sparse vector,
         //  mapping feature IDs to counts.
-        pipeList.add(new FeatureSequence2FeatureVector());
+        //pipeList.add(new FeatureSequence2FeatureVector());
 
         // Print out the features and the label
         pipeList.add(new PrintInputAndTarget());
@@ -91,14 +93,51 @@ public class ImportExample {
         return instances;
     }
     
+    public void printLabelings(Classifier classifier, File file) throws IOException {
+
+        
+    	 FileIterator reader =
+    	            new FileIterator(file,
+    	                             new TxtFilter(),
+    	                             FileIterator.LAST_DIRECTORY);              
+
+        // Create an iterator that will pass each instance through                                         
+        //  the same pipe that was used to create the training data                                        
+        //  for the classifier.                                                                            
+        Iterator instances =
+            classifier.getInstancePipe().newIteratorFrom(reader);
+
+        // Classifier.classify() returns a Classification object                                           
+        //  that includes the instance, the classifier, and the                                            
+        //  classification results (the labeling). Here we only                                            
+        //  care about the Labeling.                                                                       
+        while (instances.hasNext()) {
+            Labeling labeling = classifier.classify(instances.next()).getLabeling();
+
+            // print the labels with their weights in descending order (ie best first)                     
+
+            for (int rank = 0; rank < labeling.numLocations(); rank++){
+                System.out.println(labeling.getLabelAtRank(rank) + ":" +
+                                 labeling.getValueAtRank(rank) + " ");
+            }
+        }
+    }
+    
     public Classifier trainClassifier(InstanceList trainingInstances) {
 
         // Here we use a maximum entropy (ie polytomous logistic regression)                               
         //  classifier. Mallet includes a wide variety of classification                                   
         //  algorithms, see the JavaDoc API for details.                                                   
 
-        ClassifierTrainer<?> trainer = new NaiveBayesTrainer();//  MaxEntTrainer();
+        ClassifierTrainer trainer = new NaiveBayesTrainer();//  MaxEntTrainer();
         return trainer.train(trainingInstances);
+    }
+    
+    public Labeling predictLabel(Classifier classifier, Instance instance) {
+    	Instance pipeInstance = classifier.getInstancePipe().instanceFrom(instance);
+    	Labeling labeling = classifier.classify(pipeInstance).getLabeling();
+    	
+    	return labeling;
     }
 
     public static void main (String[] args) throws IOException {
@@ -106,7 +145,15 @@ public class ImportExample {
         ImportExample importer = new ImportExample();
         InstanceList instances = importer.readDirectory(new File(args[0]));
         instances.save(new File(args[1]));
-
+        File file = new File("toLabel");
+        
+        System.out.println("this shoul I do with help, of course.");
+        Classifier classifier = importer.trainClassifier(instances);
+        InstanceList instanceList = importer.readDirectory(file);
+        Instance instance = instanceList.get(0);
+        Labeling labeling = importer.predictLabel(classifier, instance);
+        System.out.println("The document is from the category ");
+        importer.printLabelings(classifier, file);
     }
 
     /** This class illustrates how to build a simple file filter */

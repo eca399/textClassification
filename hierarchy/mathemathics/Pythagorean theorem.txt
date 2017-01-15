@@ -1,0 +1,367 @@
+Pythagorean theorem
+In mathematics, the Pythagorean theorem, also known as Pythagoras's theorem, is a fundamental relation in Euclidean geometry among the three sides of a right triangle. It states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides a, b and c, often called the "Pythagorean equation":[1]
+a 2 + b 2 = c 2 , {a^{2}+b^{2}=c^{2},}  
+where c represents the length of the hypotenuse and a and b the lengths of the triangle's other two sides.
+Although it is often argued that knowledge of the theorem predates him,[2] the theorem is named after the ancient Greek mathematician Pythagoras (c. 570 – c. 495 BC) as it is he who, by tradition, is credited with its first recorded proof.[3][4][5] There is some evidence that Babylonian mathematicians understood the formula, although little of it indicates an application within a mathematical framework.[6][7] Mesopotamian, Indian and Chinese mathematicians all discovered the theorem independently and, in some cases, provided proofs for special cases.
+The theorem has been given numerous proofs – possibly the most for any mathematical theorem. They are very diverse, including both geometric proofs and algebraic proofs, with some dating back thousands of years. The theorem can be generalized in various ways, including higher-dimensional spaces, to spaces that are not Euclidean, to objects that are not right triangles, and indeed, to objects that are not triangles at all, but n-dimensional solids. The Pythagorean theorem has attracted interest outside mathematics as a symbol of mathematical abstruseness, mystique, or intellectual power; popular references in literature, plays, musicals, songs, stamps and cartoons abound.
+Pythagorean proof
+The Pythagorean theorem was known long before Pythagoras, but he may well have been the first to prove it.[2] In any event, the proof attributed to him is very simple, and is called a proof by rearrangement.
+The two large squares shown in the figure each contain four identical triangles, and the only difference between the two large squares is that the triangles are arranged differently. Therefore, the white space within each of the two large squares must have equal area. Equating the area of the white space yields the Pythagorean theorem, Q.E.D.[8]
+That Pythagoras originated this very simple proof is sometimes inferred from the writings of the later Greek philosopher and mathematician Proclus.[9] Several other proofs of this theorem are described below, but this is known as the Pythagorean one.
+Other forms of the theorem
+As pointed out in the introduction, if c denotes the length of the hypotenuse and a and b denote the lengths of the other two sides, the Pythagorean theorem can be expressed as the Pythagorean equation:
+a 2 + b 2 = c 2 . { a^{2}+b^{2}=c^{2}.\,}  
+If the length of both a and b are known, then c can be calculated as
+c = a 2 + b 2 . { c={\sqrt {a^{2}+b^{2}}}.\,}  
+If the length of the hypotenuse c and of one side (a or b) are known, then the length of the other side can be calculated as
+a = c 2 ? b 2 { a={\sqrt {c^{2}-b^{2}}}\,}  
+or
+b = c 2 ? a 2 . {b={\sqrt {c^{2}-a^{2}}}.\,}  
+The Pythagorean equation relates the sides of a right triangle in a simple way, so that if the lengths of any two sides are known the length of the third side can be found. Another corollary of the theorem is that in any right triangle, the hypotenuse is greater than any one of the other sides, but less than their sum.
+A generalization of this theorem is the law of cosines, which allows the computation of the length of any side of any triangle, given the lengths of the other two sides and the angle between them. If the angle between the other sides is a right angle, the law of cosines reduces to the Pythagorean equation.
+Other proofs of the theorem
+This theorem may have more known proofs than any other (the law of quadratic reciprocity being another contender for that distinction); the book The Pythagorean Proposition contains 370 proofs.[10]
+Proof using similar triangles
+This proof is based on the proportionality of the sides of two similar triangles, that is, upon the fact that the ratio of any two corresponding sides of similar triangles is the same regardless of the size of the triangles.
+Let ABC represent a right triangle, with the right angle located at C, as shown on the figure. Draw the altitude from point C, and call H its intersection with the side AB. Point H divides the length of the hypotenuse c into parts d and e. The new triangle ACH is similar to triangle ABC, because they both have a right angle (by definition of the altitude), and they share the angle at A, meaning that the third angle will be the same in both triangles as well, marked as ? in the figure. By a similar reasoning, the triangle CBH is also similar to ABC. The proof of similarity of the triangles requires the triangle postulate: the sum of the angles in a triangle is two right angles, and is equivalent to the parallel postulate. Similarity of the triangles leads to the equality of ratios of corresponding sides:
+B C A B = B H B C  and  A C A B = A H A C . {\displaystyle {\frac {BC}{AB}}={\frac {BH}{BC}}{\text{ and }}{\frac {AC}{AB}}={\frac {AH}{AC}}.\,}  
+The first result equates the cosines of the angles ?, whereas the second result equates their sines.
+These ratios can be written as
+B C 2 = A B × B H  and  A C 2 = A B × A H . {\displaystyle BC^{2}=AB\times BH{\text{ and }}AC^{2}=AB\times AH.\,}  
+Summing these two equalities results in
+B C 2 + A C 2 = A B × B H + A B × A H = A B × ( A H + B H ) = A B 2 , {\displaystyle BC^{2}+AC^{2}=AB\times BH+AB\times AH=AB\times (AH+BH)=AB^{2},\,\!}  
+which, after simplification, expresses the Pythagorean theorem:
+B C 2 + A C 2 = A B 2   . {\displaystyle BC^{2}+AC^{2}=AB^{2}\ .\,\!}  
+The role of this proof in history is the subject of much speculation. The underlying question is why Euclid did not use this proof, but invented another. One conjecture is that the proof by similar triangles involved a theory of proportions, a topic not discussed until later in the Elements, and that the theory of proportions needed further development at that time.[11][12]
+Euclid's proof
+In outline, here is how the proof in Euclid's Elements proceeds. The large square is divided into a left and right rectangle. A triangle is constructed that has half the area of the left rectangle. Then another triangle is constructed that has half the area of the square on the left-most side. These two triangles are shown to be congruent, proving this square has the same area as the left rectangle. This argument is followed by a similar version for the right rectangle and the remaining square. Putting the two rectangles together to reform the square on the hypotenuse, its area is the same as the sum of the area of the other two squares. The details follow.
+Let A, B, C be the vertices of a right triangle, with a right angle at A. Drop a perpendicular from A to the side opposite the hypotenuse in the square on the hypotenuse. That line divides the square on the hypotenuse into two rectangles, each having the same area as one of the two squares on the legs.
+For the formal proof, we require four elementary lemmata:
+1. If two triangles have two sides of the one equal to two sides of the other, each to each, and the angles included by those sides equal, then the triangles are congruent (side-angle-side). 
+2. The area of a triangle is half the area of any parallelogram on the same base and having the same altitude. 
+3. The area of a rectangle is equal to the product of two adjacent sides. 
+4. The area of a square is equal to the product of two of its sides (follows from 3). 
+Next, each top square is related to a triangle congruent with another triangle related in turn to one of two rectangles making up the lower square.[13]
+ 
+Showing the two congruent triangles of half the area of rectangle BDLK and square BAGF
+The proof is as follows:
+1. Let ACB be a right-angled triangle with right angle CAB. 
+2. On each of the sides BC, AB, and CA, squares are drawn, CBDE, BAGF, and ACIH, in that order. The construction of squares requires the immediately preceding theorems in Euclid, and depends upon the parallel postulate.[14] 
+3. From A, draw a line parallel to BD and CE. It will perpendicularly intersect BC and DE at K and L, respectively. 
+4. Join CF and AD, to form the triangles BCF and BDA. 
+5. Angles CAB and BAG are both right angles; therefore C, A, and G are collinear. Similarly for B, A, and H. 
+6. Angles CBD and FBA are both right angles; therefore angle ABD equals angle FBC, since both are the sum of a right angle and angle ABC. 
+7. Since AB is equal to FB and BD is equal to BC, triangle ABD must be congruent to triangle FBC. 
+8. Since A-K-L is a straight line, parallel to BD, then rectangle BDLK has twice the area of triangle ABD because they share the base BD and have the same altitude BK, i.e., a line normal to their common base, connecting the parallel lines BD and AL. (lemma 2) 
+9. Since C is collinear with A and G, square BAGF must be twice in area to triangle FBC. 
+10. Therefore, rectangle BDLK must have the same area as square BAGF = AB2. 
+11. Similarly, it can be shown that rectangle CKLE must have the same area as square ACIH = AC2. 
+12. Adding these two results, AB2 + AC2 = BD × BK + KL × KC 
+13. Since BD = KL, BD × BK + KL × KC = BD(BK + KC) = BD × BC 
+14. Therefore, AB2 + AC2 = BC2, since CBDE is a square. 
+This proof, which appears in Euclid's Elements as that of Proposition 47 in Book 1,[15] demonstrates that the area of the square on the hypotenuse is the sum of the areas of the other two squares.[16] This is quite distinct from the proof by similarity of triangles, which is conjectured to be the proof that Pythagoras used.[12][17]
+Proofs by dissection and rearrangement
+We have already discussed the Pythagorean proof, which was a proof by rearrangement. The same idea is conveyed by the leftmost animation below, which consists of a large square, side a + b, containing four identical right triangles. The triangles are shown in two arrangements, the first of which leaves two squares a2 and b2 uncovered, the second of which leaves square c2 uncovered. The area encompassed by the outer square never changes, and the area of the four triangles is the same at the beginning and the end, so the black square areas must be equal, therefore a2 + b2 = c2.
+A second proof by rearrangement is given by the middle animation. A large square is formed with area c2, from four identical right triangles with sides a, b and c, fitted around a small central square. Then two rectangles are formed with sides a and b by moving the triangles. Combining the smaller square with these rectangles produces two squares of areas a2 and b2, which must have the same area as the initial large square.[18]
+The third, rightmost image also gives a proof. The upper two squares are divided as shown by the blue and green shading, into pieces that when rearranged can be made to fit in the lower square on the hypotenuse – or conversely the large square can be divided as shown into pieces that fill the other two. This way of cutting one figure into pieces and rearranging them to get another figure is called dissection. This shows the area of the large square equals that of the two smaller ones.[19] 
+Einstein's proof by dissection without rearrangement
+ 
+Right triangle on the hypotenuse dissected into two similar right triangles on the legs, according to Einstein's proof
+Albert Einstein gave a proof by dissection in which the pieces need not get moved.[20] Instead of using a square on the hypotenuse and two squares on the legs, one can use any other shape that includes the hypotenuse, and two similar shapes that each include one of two legs instead of the hypotenuse. In Einstein's proof, the shape that includes the hypotenuse is the right triangle itself. The dissection consists of dropping a perpendicular from the vertex of the right angle of the triangle to the hypotenuse, thus splitting the whole triangle into two parts. Those two parts have the same shape as the original right triangle, and have the legs of the original triangle as their hypotenuses, and the sum of their areas is that of the original triangle. Because the ratio of the area of a right triangle to the square of its hypotenuse is the same for similar triangles, the relationship between the areas of the three triangles holds for the squares of the sides of the large triangle as well.
+Algebraic proofs
+ 
+Diagram of the two algebraic proofs
+The theorem can be proved algebraically using four copies of a right triangle with sides a, b and c, arranged inside a square with side c as in the top half of the diagram.[21] The triangles are similar with area 1 2 a b {\displaystyle {\tfrac {1}{2}}ab} , while the small square has side b ? a and area (b ? a)2. The area of the large square is therefore
+( b ? a ) 2 + 4 a b 2 = ( b ? a ) 2 + 2 a b = a 2 + b 2 . {\displaystyle (b-a)^{2}+4{\frac {ab}{2}}=(b-a)^{2}+2ab=a^{2}+b^{2}.\,}  
+But this is a square with side c and area c2, so
+c 2 = a 2 + b 2 . {\displaystyle c^{2}=a^{2}+b^{2}.\,}  
+A similar proof uses four copies of the same triangle arranged symmetrically around a square with side c, as shown in the lower part of the diagram.[22] This results in a larger square, with side a + b and area (a + b)2. The four triangles and the square side c must have the same area as the larger square,
+( b + a ) 2 = c 2 + 4 a b 2 = c 2 + 2 a b , {\displaystyle (b+a)^{2}=c^{2}+4{\frac {ab}{2}}=c^{2}+2ab,\,}  
+giving
+c 2 = ( b + a ) 2 ? 2 a b = a 2 + b 2 . {\displaystyle c^{2}=(b+a)^{2}-2ab=a^{2}+b^{2}.\,}  
+ 
+Diagram of Garfield's proof
+A related proof was published by future U.S. President James A. Garfield (then a U.S. Representative).[23][24] Instead of a square it uses a trapezoid, which can be constructed from the square in the second of the above proofs by bisecting along a diagonal of the inner square, to give the trapezoid as shown in the diagram. The area of the trapezoid can be calculated to be half the area of the square, that is
+1 2 ( b + a ) 2 . {\displaystyle {\frac {1}{2}}(b+a)^{2}.}  
+The inner square is similarly halved, and there are only two triangles so the proof proceeds as above except for a factor of 1 2 {\displaystyle {\frac {1}{2}}} , which is removed by multiplying by two to give the result.
+Proof using differentials
+One can arrive at the Pythagorean theorem by studying how changes in a side produce a change in the hypotenuse and employing calculus.[25][26][27]
+The triangle ABC is a right triangle, as shown in the upper part of the diagram, with BC the hypotenuse. At the same time the triangle lengths are measured as shown, with the hypotenuse of length y, the side AC of length x and the side AB of length a, as seen in the lower diagram part.
+ 
+Diagram for differential proof
+If x is increased by a small amount dx by extending the side AC slightly to D, then y also increases by dy. These form two sides of a triangle, CDE, which (with E chosen so CE is perpendicular to the hypotenuse) is a right triangle approximately similar to ABC. Therefore, the ratios of their sides must be the same, that is:
+d y d x = x y . {\displaystyle {\frac {dy}{dx}}={\frac {x}{y}}.}  
+This can be rewritten as y d y = x d x {\displaystyle y\,dy=x\,dx}  , which is a differential equation that can be solved by direct integration:
+? y d y = ? x d x , {\displaystyle \int y\,dy=\int x\,dx\,,}  
+giving
+y 2 = x 2 + C . {\displaystyle y^{2}=x^{2}+C.}  
+The constant can be deduced from x = 0, y = a to give the equation
+y 2 = x 2 + a 2 . {\displaystyle y^{2}=x^{2}+a^{2}.\,}  
+This is more of an intuitive proof than a formal one: it can be made more rigorous if proper limits are used in place of dx and dy.
+Converse
+The converse of the theorem is also true:[28]
+For any three positive numbers a, b, and c such that a2 + b2 = c2, there exists a triangle with sides a, b and c, and every such triangle has a right angle between the sides of lengths a and b.
+An alternative statement is:
+For any triangle with sides a, b, c, if a2 + b2 = c2, then the angle between a and b measures 90°.
+This converse also appears in Euclid's Elements (Book I, Proposition 48):[29]
+"If in a triangle the square on one of the sides equals the sum of the squares on the remaining two sides of the triangle, then the angle contained by the remaining two sides of the triangle is right."
+It can be proven using the law of cosines or as follows:
+Let ABC be a triangle with side lengths a, b, and c, with a2 + b2 = c2. Construct a second triangle with sides of length a and b containing a right angle. By the Pythagorean theorem, it follows that the hypotenuse of this triangle has length c = ?a2 + b2, the same as the hypotenuse of the first triangle. Since both triangles' sides are the same lengths a, b and c, the triangles are congruent and must have the same angles. Therefore, the angle between the side of lengths a and b in the original triangle is a right angle.
+The above proof of the converse makes use of the Pythagorean theorem itself. The converse can also be proven without assuming the Pythagorean theorem.[30][31]
+A corollary of the Pythagorean theorem's converse is a simple means of determining whether a triangle is right, obtuse, or acute, as follows. Let c be chosen to be the longest of the three sides and a + b > c (otherwise there is no triangle according to the triangle inequality). The following statements apply:[32]
+If a2 + b2 = c2, then the triangle is right. 
+If a2 + b2 > c2, then the triangle is acute. 
+If a2 + b2 < c2, then the triangle is obtuse. 
+Edsger Dijkstra has stated this proposition about acute, right, and obtuse triangles in this language:
+sgn(? + ? ? ?) = sgn(a2 + b2 ? c2), 
+where ? is the angle opposite to side a, ? is the angle opposite to side b, ? is the angle opposite to side c, and sgn is the sign function.[33]
+Consequences and uses of the theorem
+Pythagorean triples
+Main article: Pythagorean triple
+A Pythagorean triple has three positive integers a, b, and c, such that a2 + b2 = c2. In other words, a Pythagorean triple represents the lengths of the sides of a right triangle where all three sides have integer lengths.[1] Evidence from megalithic monuments in Northern Europe shows that such triples were known before the discovery of writing. Such a triple is commonly written (a, b, c). Some well-known examples are (3, 4, 5) and (5, 12, 13).
+A primitive Pythagorean triple is one in which a, b and c are coprime (the greatest common divisor of a, b and c is 1).
+The following is a list of primitive Pythagorean triples with values less than 100:
+(3, 4, 5), (5, 12, 13), (7, 24, 25), (8, 15, 17), (9, 40, 41), (11, 60, 61), (12, 35, 37), (13, 84, 85), (16, 63, 65), (20, 21, 29), (28, 45, 53), (33, 56, 65), (36, 77, 85), (39, 80, 89), (48, 55, 73), (65, 72, 97) 
+Incommensurable lengths
+ 
+The spiral of Theodorus: A construction for line segments with lengths whose ratios are the square root of a positive integer
+One of the consequences of the Pythagorean theorem is that line segments whose lengths are incommensurable (so the ratio of which is not a rational number) can be constructed using a straightedge and compass. Pythagoras's theorem enables construction of incommensurable lengths because the hypotenuse of a triangle is related to the sides by the square root operation.
+The figure on the right shows how to construct line segments whose lengths are in the ratio of the square root of any positive integer.[34] Each triangle has a side (labeled "1") that is the chosen unit for measurement. In each right triangle, Pythagoras's theorem establishes the length of the hypotenuse in terms of this unit. If a hypotenuse is related to the unit by the square root of a positive integer that is not a perfect square, it is a realization of a length incommensurable with the unit, such as ?2, ?3, ?5 . For more detail, see Quadratic irrational.
+Incommensurable lengths conflicted with the Pythagorean school's concept of numbers as only whole numbers. The Pythagorean school dealt with proportions by comparison of integer multiples of a common subunit.[35] According to one legend, Hippasus of Metapontum (ca. 470 B.C.) was drowned at sea for making known the existence of the irrational or incommensurable.[36][37]
+Complex numbers
+ 
+The absolute value of a complex number z is the distance r from z to the origin
+For any complex number
+z = x + i y , {\displaystyle z=x+iy,\,}  
+the absolute value or modulus is given by
+r = | z | = x 2 + y 2 . {\displaystyle r=|z|={\sqrt {x^{2}+y^{2}}}.\,}  
+So the three quantities, r, x and y are related by the Pythagorean equation,
+r 2 = x 2 + y 2 . {\displaystyle r^{2}=x^{2}+y^{2}.\,}  
+Note that r is defined to be a positive number or zero but x and y can be negative as well as positive. Geometrically r is the distance of the z from zero or the origin O in the complex plane.
+This can be generalised to find the distance between two points, z1 and z2 say. The required distance is given by
+| z 1 ? z 2 | = ( x 1 ? x 2 ) 2 + ( y 1 ? y 2 ) 2 , {\displaystyle |z_{1}-z_{2}|={\sqrt {(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}},\,}  
+so again they are related by a version of the Pythagorean equation,
+| z 1 ? z 2 | 2 = ( x 1 ? x 2 ) 2 + ( y 1 ? y 2 ) 2 . {\displaystyle |z_{1}-z_{2}|^{2}=(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}.\,}  
+Euclidean distance in various coordinate systems
+The distance formula in Cartesian coordinates is derived from the Pythagorean theorem.[38] If (x1, y1) and (x2, y2) are points in the plane, then the distance between them, also called the Euclidean distance, is given by
+( x 1 ? x 2 ) 2 + ( y 1 ? y 2 ) 2 . {\displaystyle {\sqrt {(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}}}.}  
+More generally, in Euclidean n-space, the Euclidean distance between two points, A = ( a 1 , a 2 , … , a n ) {\displaystyle A\,=\,(a_{1},a_{2},\dots ,a_{n})}  and B = ( b 1 , b 2 , … , b n ) {\displaystyle B\,=\,(b_{1},b_{2},\dots ,b_{n})} , is defined, by generalization of the Pythagorean theorem, as:
+( a 1 ? b 1 ) 2 + ( a 2 ? b 2 ) 2 + ? + ( a n ? b n ) 2 = ? i = 1 n ( a i ? b i ) 2 . {\displaystyle {\sqrt {(a_{1}-b_{1})^{2}+(a_{2}-b_{2})^{2}+\cdots +(a_{n}-b_{n})^{2}}}={\sqrt {\sum _{i=1}^{n}(a_{i}-b_{i})^{2}}}.}  
+If Cartesian coordinates are not used, for example, if polar coordinates are used in two dimensions or, in more general terms, if curvilinear coordinates are used, the formulas expressing the Euclidean distance are more complicated than the Pythagorean theorem, but can be derived from it. A typical example where the straight-line distance between two points is converted to curvilinear coordinates can be found in the applications of Legendre polynomials in physics. The formulas can be discovered by using Pythagoras's theorem with the equations relating the curvilinear coordinates to Cartesian coordinates. For example, the polar coordinates (r, ?) can be introduced as:
+x = r cos ? ? ,   y = r sin ? ? . {\displaystyle x=r\cos \theta ,\ y=r\sin \theta .\,}  
+Then two points with locations (r1, ?1) and (r2, ?2) are separated by a distance s:
+s 2 = ( x 1 ? x 2 ) 2 + ( y 1 ? y 2 ) 2 = ( r 1 cos ? ? 1 ? r 2 cos ? ? 2 ) 2 + ( r 1 sin ? ? 1 ? r 2 sin ? ? 2 ) 2 . {\displaystyle s^{2}=(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}=(r_{1}\cos \theta _{1}-r_{2}\cos \theta _{2})^{2}+(r_{1}\sin \theta _{1}-r_{2}\sin \theta _{2})^{2}.\,}  
+Performing the squares and combining terms, the Pythagorean formula for distance in Cartesian coordinates produces the separation in polar coordinates as:
+s 2 = r 1 2 + r 2 2 ? 2 r 1 r 2 ( cos ? ? 1 cos ? ? 2 + sin ? ? 1 sin ? ? 2 ) = r 1 2 + r 2 2 ? 2 r 1 r 2 cos ? ( ? 1 ? ? 2 ) = r 1 2 + r 2 2 ? 2 r 1 r 2 cos ? ? ? , {\displaystyle {\begin{aligned}s^{2}&=r_{1}^{2}+r_{2}^{2}-2r_{1}r_{2}\left(\cos \theta _{1}\cos \theta _{2}+\sin \theta _{1}\sin \theta _{2}\right)\\&=r_{1}^{2}+r_{2}^{2}-2r_{1}r_{2}\cos \left(\theta _{1}-\theta _{2}\right)\\&=r_{1}^{2}+r_{2}^{2}-2r_{1}r_{2}\cos \Delta \theta ,\end{aligned}}\,}  
+using the trigonometric product-to-sum formulas. This formula is the law of cosines, sometimes called the generalized Pythagorean theorem.[39] From this result, for the case where the radii to the two locations are at right angles, the enclosed angle ?? = ?/2, and the form corresponding to Pythagoras's theorem is regained: s 2 = r 1 2 + r 2 2 . {\displaystyle s^{2}=r_{1}^{2}+r_{2}^{2}.\,}  The Pythagorean theorem, valid for right triangles, therefore is a special case of the more general law of cosines, valid for arbitrary triangles.
+Pythagorean trigonometric identity
+Main article: Pythagorean trigonometric identity
+ 
+Similar right triangles showing sine and cosine of angle ?
+In a right triangle with sides a, b and hypotenuse c, trigonometry determines the sine and cosine of the angle ? between side a and the hypotenuse as:
+sin ? ? = b c , cos ? ? = a c . {\displaystyle \sin \theta ={\frac {b}{c}},\quad \cos \theta ={\frac {a}{c}}.}  
+From that it follows:
+cos 2 ? + sin 2 ? = a 2 + b 2 c 2 = 1 , {\displaystyle {\cos }^{2}\theta +{\sin }^{2}\theta ={\frac {a^{2}+b^{2}}{c^{2}}}=1,}  
+where the last step applies Pythagoras's theorem. This relation between sine and cosine is sometimes called the fundamental Pythagorean trigonometric identity.[40] In similar triangles, the ratios of the sides are the same regardless of the size of the triangles, and depend upon the angles. Consequently, in the figure, the triangle with hypotenuse of unit size has opposite side of size sin ? and adjacent side of size cos ? in units of the hypotenuse.
+Relation to the cross product
+ 
+The area of a parallelogram as a cross product; vectors a and b identify a plane and a × b is normal to this plane.
+The Pythagorean theorem relates the cross product and dot product in a similar way:[41]
+? a × b ? 2 + ( a ? b ) 2 = ? a ? 2 ? b ? 2 . {\displaystyle \|\mathbf {a} \times \mathbf {b} \|^{2}+(\mathbf {a} \cdot \mathbf {b} )^{2}=\|\mathbf {a} \|^{2}\|\mathbf {b} \|^{2}.\,}  
+This can be seen from the definitions of the cross product and dot product, as
+a × b = a b n sin ? ? a ? b = a b cos ? ? , {\displaystyle {\begin{aligned}\mathbf {a} \times \mathbf {b} &=ab\mathbf {n} \sin {\theta }\\\mathbf {a} \cdot \mathbf {b} &=ab\cos {\theta },\end{aligned}}}  
+with n a unit vector normal to both a and b. The relationship follows from these definitions and the Pythagorean trigonometric identity.
+This can also be used to define the cross product. By rearranging the following equation is obtained
+? a × b ? 2 = ? a ? 2 ? b ? 2 ? ( a ? b ) 2 . {\displaystyle \|\mathbf {a} \times \mathbf {b} \|^{2}=\|\mathbf {a} \|^{2}\|\mathbf {b} \|^{2}-(\mathbf {a} \cdot \mathbf {b} )^{2}.\,}  
+This can be considered as a condition on the cross product and so part of its definition, for example in seven dimensions.[42][43]
+Generalizations
+Similar figures on the three sides
+A generalization of the Pythagorean theorem extending beyond the areas of squares on the three sides to similar figures was known by Hippocrates of Chios in the 5th century BC,[44] and was included by Euclid in his Elements:[45]
+If one erects similar figures (see Euclidean geometry) with corresponding sides on the sides of a right triangle, then the sum of the areas of the ones on the two smaller sides equals the area of the one on the larger side.
+This extension assumes that the sides of the original triangle are the corresponding sides of the three congruent figures (so the common ratios of sides between the similar figures are a:b:c).[46] While Euclid's proof only applied to convex polygons, the theorem also applies to concave polygons and even to similar figures that have curved boundaries (but still with part of a figure's boundary being the side of the original triangle).[46]
+The basic idea behind this generalization is that the area of a plane figure is proportional to the square of any linear dimension, and in particular is proportional to the square of the length of any side. Thus, if similar figures with areas A, B and C are erected on sides with corresponding lengths a, b and c then:
+A a 2 = B b 2 = C c 2 , {\displaystyle {\frac {A}{a^{2}}}={\frac {B}{b^{2}}}={\frac {C}{c^{2}}}\,,}  
+? A + B = a 2 c 2 C + b 2 c 2 C . {\displaystyle \Rightarrow A+B={\frac {a^{2}}{c^{2}}}C+{\frac {b^{2}}{c^{2}}}C\,.}  
+But, by the Pythagorean theorem, a2 + b2 = c2, so A + B = C.
+Conversely, if we can prove that A + B = C for three similar figures without using the Pythagorean theorem, then we can work backwards to construct a proof of the theorem. For example, the starting center triangle can be replicated and used as a triangle C on its hypotenuse, and two similar right triangles (A and B ) constructed on the other two sides, formed by dividing the central triangle by its altitude. The sum of the areas of the two smaller triangles therefore is that of the third, thus A + B = C and reversing the above logic leads to the Pythagorean theorem a2 + b2 = c2.
+Law of cosines
+ 
+The separation s of two points (r1, ?1) and (r2, ?2) in polar coordinates is given by the law of cosines. Interior angle ?? = ?1??2.
+Main article: Law of cosines
+The Pythagorean theorem is a special case of the more general theorem relating the lengths of sides in any triangle, the law of cosines:[47]
+a 2 + b 2 ? 2 a b cos ? ? = c 2 , {\displaystyle a^{2}+b^{2}-2ab\cos {\theta }=c^{2},\,}  
+where ? is the angle between sides a and b.
+When ? is 90 degrees (?/2 radians), then cos? = 0, and the formula reduces to the usual Pythagorean theorem.
+Arbitrary triangle
+ 
+Generalization of Pythagoras's theorem by Tâbit ibn Qorra.[48] Lower panel: reflection of triangle ABD (top) to form triangle DBA, similar to triangle ABC (top).
+At any selected angle of a general triangle of sides a, b, c, inscribe an isosceles triangle such that the equal angles at its base ? are the same as the selected angle. Suppose the selected angle ? is opposite the side labeled c. Inscribing the isosceles triangle forms triangle ABD with angle ? opposite side a and with side r along c. A second triangle is formed with angle ? opposite side b and a side with length s along c, as shown in the figure. Th?bit ibn Qurra stated that the sides of the three triangles were related as:[49][50]
+a 2 + b 2 = c ( r + s )   . {\displaystyle a^{2}+b^{2}=c(r+s)\ .}  
+As the angle ? approaches ?/2, the base of the isosceles triangle narrows, and lengths r and s overlap less and less. When ? = ?/2, ADB becomes a right triangle, r + s = c, and the original Pythagorean theorem is regained.
+One proof observes that triangle ABC has the same angles as triangle ABD, but in opposite order. (The two triangles share the angle at vertex B, both contain the angle ?, and so also have the same third angle by the triangle postulate.) Consequently, ABC is similar to the reflection of ABD, the triangle DBA in the lower panel. Taking the ratio of sides opposite and adjacent to ?,
+c a = a r   . {\displaystyle {\frac {c}{a}}={\frac {a}{r}}\ .}  
+Likewise, for the reflection of the other triangle,
+c b = b s   . {\displaystyle {\frac {c}{b}}={\frac {b}{s}}\ .}  
+Clearing fractions and adding these two relations:
+c r + c s = a 2 + b 2   , {\displaystyle cr+cs=a^{2}+b^{2}\ ,}  
+the required result.
+The theorem remains valid if the angle ? {\displaystyle \theta }  is obtuse so the lengths r and s are non-overlapping.
+General triangles using parallelograms
+ 
+Generalization for arbitrary triangles,
+green area = blue area
+ 
+Construction for proof of parallelogram generalization
+Pappus's area theorem is a further generalization, that applies to triangles that are not right triangles, using parallelograms on the three sides in place of squares (squares are a special case, of course). The upper figure shows that for a scalene triangle, the area of the parallelogram on the longest side is the sum of the areas of the parallelograms on the other two sides, provided the parallelogram on the long side is constructed as indicated (the dimensions labeled with arrows are the same, and determine the sides of the bottom parallelogram). This replacement of squares with parallelograms bears a clear resemblance to the original Pythagoras's theorem, and was considered a generalization by Pappus of Alexandria in 4 A.D.[51][52]
+The lower figure shows the elements of the proof. Focus on the left side of the figure. The left green parallelogram has the same area as the left, blue portion of the bottom parallelogram because both have the same base b and height h. However, the left green parallelogram also has the same area as the left green parallelogram of the upper figure, because they have the same base (the upper left side of the triangle) and the same height normal to that side of the triangle. Repeating the argument for the right side of the figure, the bottom parallelogram has the same area as the sum of the two green parallelograms.
+Solid geometry
+Main article: Solid geometry
+ 
+Pythagoras's theorem in three dimensions relates the diagonal AD to the three sides.
+ 
+A tetrahedron with outward facing right-angle corner
+In terms of solid geometry, Pythagoras's theorem can be applied to three dimensions as follows. Consider a rectangular solid as shown in the figure. The length of diagonal BD is found from Pythagoras's theorem as:
+B D ¯ 2 = B C ¯ 2 + C D ¯ 2   , {\displaystyle {\overline {BD}}^{\,2}={\overline {BC}}^{\,2}+{\overline {CD}}^{\,2}\ ,}  
+where these three sides form a right triangle. Using horizontal diagonal BD and the vertical edge AB, the length of diagonal AD then is found by a second application of Pythagoras's theorem as:
+A D ¯ 2 = A B ¯ 2 + B D ¯ 2   , {\displaystyle {\overline {AD}}^{\,2}={\overline {AB}}^{\,2}+{\overline {BD}}^{\,2}\ ,}  
+or, doing it all in one step:
+A D ¯ 2 = A B ¯ 2 + B C ¯ 2 + C D ¯ 2   . {\displaystyle {\overline {AD}}^{\,2}={\overline {AB}}^{\,2}+{\overline {BC}}^{\,2}+{\overline {CD}}^{\,2}\ .}  
+This result is the three-dimensional expression for the magnitude of a vector v (the diagonal AD) in terms of its orthogonal components {vk} (the three mutually perpendicular sides):
+? v ? 2 = ? k = 1 3 ? v k ? 2 . {\displaystyle \|\mathbf {v} \|^{2}=\sum _{k=1}^{3}\|\mathbf {v} _{k}\|^{2}.}  
+This one-step formulation may be viewed as a generalization of Pythagoras's theorem to higher dimensions. However, this result is really just the repeated application of the original Pythagoras's theorem to a succession of right triangles in a sequence of orthogonal planes.
+A substantial generalization of the Pythagorean theorem to three dimensions is de Gua's theorem, named for Jean Paul de Gua de Malves: If a tetrahedron has a right angle corner (like a corner of a cube), then the square of the area of the face opposite the right angle corner is the sum of the squares of the areas of the other three faces. This result can be generalized as in the "n-dimensional Pythagorean theorem":[53]
+Let x 1 , x 2 , … , x n {\displaystyle x_{1},x_{2},\ldots ,x_{n}\,}  be orthogonal vectors in ?n. Consider the n-dimensional simplex S with vertices 0 , x 1 , … , x n {\displaystyle 0,x_{1},\ldots ,x_{n}\,} . (Think of the (n ? 1)-dimensional simplex with vertices x 1 , … , x n {\displaystyle x_{1},\ldots ,x_{n}\,}  not including the origin as the "hypotenuse" of S and the remaining (n ? 1)-dimensional faces of S as its "legs".) Then the square of the volume of the hypotenuse of S is the sum of the squares of the volumes of the n legs.
+This statement is illustrated in three dimensions by the tetrahedron in the figure. The "hypotenuse" is the base of the tetrahedron at the back of the figure, and the "legs" are the three sides emanating from the vertex in the foreground. As the depth of the base from the vertex increases, the area of the "legs" increases, while that of the base is fixed. The theorem suggests that when this depth is at the value creating a right vertex, the generalization of Pythagoras's theorem applies. In a different wording:[54]
+Given an n-rectangular n-dimensional simplex, the square of the (n ? 1)-content of the facet opposing the right vertex will equal the sum of the squares of the (n ? 1)-contents of the remaining facets.
+Inner product spaces
+See also: Hilbert space
+ 
+Vectors involved in the parallelogram law
+The Pythagorean theorem can be generalized to inner product spaces,[55] which are generalizations of the familiar 2-dimensional and 3-dimensional Euclidean spaces. For example, a function may be considered as a vector with infinitely many components in an inner product space, as in functional analysis.[56]
+In an inner product space, the concept of perpendicularity is replaced by the concept of orthogonality: two vectors v and w are orthogonal if their inner product ? v , w ? {\displaystyle \langle \mathbf {v} ,\mathbf {w} \rangle }  is zero. The inner product is a generalization of the dot product of vectors. The dot product is called the standard inner product or the Euclidean inner product. However, other inner products are possible.[57]
+The concept of length is replaced by the concept of the norm ||v|| of a vector v, defined as:[58]
+? v ? ? ? v , v ? . {\displaystyle \lVert \mathbf {v} \rVert \equiv {\sqrt {\langle \mathbf {v} ,\mathbf {v} \rangle }}\,.}  
+In an inner-product space, the Pythagorean theorem states that for any two orthogonal vectors v and w we have
+? v + w ? 2 = ? v ? 2 + ? w ? 2 . {\displaystyle \left\|\mathbf {v} +\mathbf {w} \right\|^{2}=\left\|\mathbf {v} \right\|^{2}+\left\|\mathbf {w} \right\|^{2}.}  
+Here the vectors v and w are akin to the sides of a right triangle with hypotenuse given by the vector sum v + w. This form of the Pythagorean theorem is a consequence of the properties of the inner product:
+? v + w ? 2 = ? v + w ,   v + w ? = ? v ,   v ? + ? w ,   w ? + ? v ,   w ? + ? w ,   v ?   = ? v ? 2 + ? w ? 2 , {\displaystyle \left\|\mathbf {v} +\mathbf {w} \right\|^{2}=\langle \mathbf {v+w} ,\ \mathbf {v+w} \rangle =\langle \mathbf {v} ,\ \mathbf {v} \rangle +\langle \mathbf {w} ,\ \mathbf {w} \rangle +\langle \mathbf {v,\ w} \rangle +\langle \mathbf {w,\ v} \rangle \ =\left\|\mathbf {v} \right\|^{2}+\left\|\mathbf {w} \right\|^{2},}  
+where the inner products of the cross terms are zero, because of orthogonality.
+A further generalization of the Pythagorean theorem in an inner product space to non-orthogonal vectors is the parallelogram law :[58]
+2 ? v ? 2 + 2 ? w ? 2 = ? v + w ? 2 + ? v ? w ? 2   , {\displaystyle 2\|\mathbf {v} \|^{2}+2\|\mathbf {w} \|^{2}=\|\mathbf {v+w} \|^{2}+\|\mathbf {v-w} \|^{2}\ ,}  
+which says that twice the sum of the squares of the lengths of the sides of a parallelogram is the sum of the squares of the lengths of the diagonals. Any norm that satisfies this equality is ipso facto a norm corresponding to an inner product.[58]
+The Pythagorean identity can be extended to sums of more than two orthogonal vectors. If v1, v2, ..., vn are pairwise-orthogonal vectors in an inner-product space, then application of the Pythagorean theorem to successive pairs of these vectors (as described for 3-dimensions in the section on solid geometry) results in the equation[59]
+? ? k = 1 n v k ? 2 = ? k = 1 n ? v k ? 2 {\displaystyle \left\|\sum _{k=1}^{n}\mathbf {v} _{k}\right\|^{2}=\sum _{k=1}^{n}\|\mathbf {v} _{k}\|^{2}}  
+Sets of m-dimensional objects in n-dimensional space
+Another generalization of the Pythagorean theorem, introduced by Donald R. Conant and William A. Beyer, applies to a wide range of objects and sets of objects in any number of dimensions. Specifically, the square of the measure of an m-dimensional set of objects in one or more parallel m-dimensional flats in n-dimensional Euclidean space is equal to the sum of the squares of the measures of the orthogonal projections of the object(s) onto all m-dimensional coordinate subspaces.[60]
+In mathematical terms:
+? m s 2 = ? i = 1 x ? 2 m p i {\displaystyle \mu _{ms}^{2}=\sum _{i=1}^{x}\mathbf {\mu ^{2}} _{mp_{i}}}  
+where:
+? m {\displaystyle \mu _{m}}  is a measure in m-dimensions (a length in one dimension, an area in two dimensions, a volume in three dimensions, etc.). 
+s {\displaystyle s}  is a set of one or more non-overlapping m-dimensional objects in one or more parallel m-dimensional flats in n-dimensional Euclidean space. 
+? m s {\displaystyle \mu _{ms}}  is the total measure (sum) of the set of m-dimensional objects. 
+p {\displaystyle p}  represents an m-dimensional projection of the original set onto an orthogonal coordinate subspace. 
+? m p i {\displaystyle \mu _{mp_{i}}}  is the measure of the m-dimensional set projection onto m-dimensional coordinate subspace i {\displaystyle i} . Because object projections can overlap on a coordinate subspace, the measure of each object projection in the set must be calculated individually, then measures of all projections added together to provide the total measure for the set of projections on the given coordinate subspace. 
+x {\displaystyle x}  is the number of orthogonal, m-dimensional coordinate subspaces in n-dimensional space (Rn) onto which the m-dimensional objects are projected (m ? n): 
+x = ( n m ) = n ! m ! ( n ? m ) ! {\displaystyle x={\binom {n}{m}}={\frac {n!}{m!(n-m)!}}}  
+For example, for a set of one or more two-dimensional parallel objects in three-dimensional space, m = 2 and n = 3. Therefore, the coordinate subspace calculation for this scenario is: x = 3!/2!(3-2)! = 3*2*1/2*1*1 = 6/2 = 3 
+Thus, three coordinate planes (xy-plane, xz-plane, and yz-plane) are required to capture the necessary projections for calculating the area of the set. If the set contained one-dimensional parallel line segments instead, three coordinate axes (x, y, and z), rather than planes, would be needed to capture the projections for calculating the length of the set. 
+ 
+The Conant-Beyer generalization applied to a one-dimensional object in two dimensions of space:
+a2 + b2 = c2.
+Applied to sets containing a single object
+This generalized formula can be applied in the simplest case to a single one-dimensional object, a line segment, in two-dimensional space. The animation illustrates this case with a line segment shown in blue and its projections onto the x- and y- axes shown in green. The lengths of the projections squared and added together are equal to the length of the original line segment squared. This produces the familiar Pythagorean theorem formula:
+a 2 + b 2 = c 2 {\displaystyle a^{2}+b^{2}=c^{2}}  
+where c is the length of the original line segment, a is the length of the segment projected onto the x-axis, and b is the length of the segment projected onto the y-axis. In the animation, a2 = 27, b2 = 9, and c2 = 36. Bringing the line segment together with its coordinate projections forms the traditional right triangle.
+
+ 
+The Conant-Beyer generalization applied to a two-dimensional object in three dimensions of space:
+A2 + B2 + C2 = D2.
+
+Similarly, for any two-dimensional object in three-dimensional space, the formula can be stated as:
+A 2 + B 2 + C 2 = D 2 {\displaystyle A^{2}+B^{2}+C^{2}=D^{2}}  
+where D is the area of a specified two-dimensional object, A is the area of the object's projection onto the xy-coordinate plane, B is the area of the object's projection onto the xz-coordinate plane, and C is the area of the object's projection onto the yz-coordinate plane.
+The animation showing a blue three-by-three square object in three dimensions of space illustrates this application of the generalization to an object of more than one dimension. As the orientation of the object changes, the proportions of the green coordinate plane projections adjust accordingly, so the squares of the areas of the projections always add up to the same value: the square of the area of the original object. In this case, the sum of the squares of the projection areas always add up to 81.
+
+ 
+The Conant-Beyer generalization applied to a set of one-dimensional objects in three dimensions of space:
+a2 + b2 + c2 = d2
+where a, b, and c represent total lengths of the line segment sets on the x-, y-, and z- axes, and d the total length of the original line segment set.
+Applied to sets containing multiple objects
+The generalization applies equally to sets of multiple objects, as long as they are in the same plane or parallel planes. The measures of the objects in such a set can be added together and essentially treated as a single object. The multiple line-segment animation illustrates the generalization applied to a set of three one-dimensional objects in three dimensions of space. In this case, two sequential line segments exist in parallel to a third line segment. Because lines are one-dimensional, the coordinate subspaces onto which they are projected must also be one-dimensional. Thus, projections appear on the coordinate axes rather than on the coordinate planes. The lengths of the projected line segments on a given axis are summed, then squared, then added to the total lengths squared on the other axes. The result is the squared sum of the lengths of the original line segments. For the sake of simplicity, when projections are single points of zero length, they are not shown, since they do not affect the calculations.
+
+ 
+The Conant-Beyer generalization applied to a two-dimensional set of objects in three dimensions of space:
+A2 + B2 + C2 = D2.
+The generalization applies to flat objects of any shape, regular or irregular. The multi-object animation illustrates the use of the generalization on a set of several different objects in different planes – in this case, a triangle and a circle on one plane, and a flat cat on a parallel plane (shown in blue). Projections of the set are shown in green on the coordinate plane subspaces. Objects shown initially upright in the yz-plane are subsequently tilted in parallel. Again, regardless of set orientation, the result remains the same. On each coordinate plane subspace, the areas of object projections are calculated individually (to avoid miscalculations due to projection overlap), then added together to produce the total projection area of the set on that plane. The projection set area is then squared for each coordinate plane. The sum of all projection set areas squared is always equal to the original set area squared.
+
+Applied in any number of dimensions
+This generalization holds regardless of the number of dimensions involved. The volume squared for a three-dimensional object or set can be calculated by summing the squares of the volumes of the associated three-dimensional projections onto three-dimensional subspaces. Any number of dimensions is valid for the set as long as one uses the same number of dimensions for the coordinate subspaces and projections.
+It is the built-in symmetry of the Cartesian coordinate system where coordinates are orthogonal vectors of unit length in flat Euclidean space that allows this generalization to apply so broadly.
+
+Non-Euclidean geometry
+Main article: Non-Euclidean geometry
+See also: Hilbert's axioms
+The Pythagorean theorem is derived from the axioms of Euclidean geometry, and in fact, the Pythagorean theorem given above does not hold in a non-Euclidean geometry.[61] (The Pythagorean theorem has been shown, in fact, to be equivalent to Euclid's Parallel (Fifth) Postulate.[62][63]) In other words, in non-Euclidean geometry, the relation between the sides of a triangle must necessarily take a non-Pythagorean form. For example, in spherical geometry, all three sides of the right triangle (say a, b, and c) bounding an octant of the unit sphere have length equal to ?/2, and all its angles are right angles, which violates the Pythagorean theorem because a2 + b2 ? c2.
+Here two cases of non-Euclidean geometry are considered—spherical geometry and hyperbolic plane geometry; in each case, as in the Euclidean case for non-right triangles, the result replacing the Pythagorean theorem follows from the appropriate law of cosines.
+However, the Pythagorean theorem remains true in hyperbolic geometry and elliptic geometry if the condition that the triangle be right is replaced with the condition that two of the angles sum to the third, say A+B = C. The sides are then related as follows: the sum of the areas of the circles with diameters a and b equals the area of the circle with diameter c.[64]
+Spherical geometry
+Main article: Spherical geometry
+ 
+Spherical triangle
+For any right triangle on a sphere of radius R (for example, if ? in the figure is a right angle), with sides a, b, c, the relation between the sides takes the form:[65]
+cos ? ( c R ) = cos ? ( a R ) cos ? ( b R ) . {\displaystyle \cos \left({\frac {c}{R}}\right)=\cos \left({\frac {a}{R}}\right)\cos \left({\frac {b}{R}}\right).}  
+This equation can be derived as a special case of the spherical law of cosines that applies to all spherical triangles:
+cos ? ( c R ) = cos ? ( a R ) cos ? ( b R ) + sin ? ( a R ) sin ? ( b R ) cos ? ?   . {\displaystyle \cos \left({\frac {c}{R}}\right)=\cos \left({\frac {a}{R}}\right)\cos \left({\frac {b}{R}}\right)+\sin \left({\frac {a}{R}}\right)\sin \left({\frac {b}{R}}\right)\cos \gamma \ .}  
+By expressing the Maclaurin series for the cosine function as an asymptotic expansion with the remainder term in big O notation,
+cos ? x = 1 ? x 2 2 + O ( x 4 )  as  x ? 0   , {\displaystyle \cos x=1-{\frac {x^{2}}{2}}+O(x^{4}){\text{ as }}x\to 0\ ,}  
+it can be shown that as the radius R approaches infinity and the arguments a/R, b/R, and c/R tend to zero, the spherical relation between the sides of a right triangle approaches the Euclidean form of the Pythagorean theorem. Substituting the asymptotic expansion for each of the cosines into the spherical relation for a right triangle yields
+1 ? 1 2 ( c R ) 2 + O ( 1 R 4 ) = [ 1 ? 1 2 ( a R ) 2 + O ( 1 R 4 ) ] [ 1 ? 1 2 ( b R ) 2 + O ( 1 R 4 ) ]  as  R ? ?   . {\displaystyle 1-{\frac {1}{2}}\left({\frac {c}{R}}\right)^{2}+O\left({\frac {1}{R^{4}}}\right)=\left[1-{\frac {1}{2}}\left({\frac {a}{R}}\right)^{2}+O\left({\frac {1}{R^{4}}}\right)\right]\left[1-{\frac {1}{2}}\left({\frac {b}{R}}\right)^{2}+O\left({\frac {1}{R^{4}}}\right)\right]{\text{ as }}R\to \infty \ .}  
+The constants a4, b4, and c4 have been absorbed into the big O remainder terms since they are independent of the radius R. This asymptotic relationship can be further simplified by multiplying out the bracketed quantities, cancelling the ones, multiplying through by ?2, and collecting all the error terms together:
+( c R ) 2 = ( a R ) 2 + ( b R ) 2 + O ( 1 R 4 )  as  R ? ?   . {\displaystyle \left({\frac {c}{R}}\right)^{2}=\left({\frac {a}{R}}\right)^{2}+\left({\frac {b}{R}}\right)^{2}+O\left({\frac {1}{R^{4}}}\right){\text{ as }}R\to \infty \ .}  
+After multiplying through by R2, the Euclidean Pythagorean relationship c2 = a2 + b2 is recovered in the limit as the radius R approaches infinity (since the remainder term tends to zero):
+c 2 = a 2 + b 2 + O ( 1 R 2 )  as  R ? ?   . {\displaystyle c^{2}=a^{2}+b^{2}+O\left({\frac {1}{R^{2}}}\right){\text{ as }}R\to \infty \ .}  
+For small right triangles (a, b << R), the cosines can be eliminated to avoid loss of significance, giving
+sin 2 ? c 2 R = sin 2 ? a 2 R + sin 2 ? b 2 R ? 2 sin 2 ? a 2 R sin 2 ? b 2 R . {\displaystyle \sin ^{2}{\frac {c}{2R}}=\sin ^{2}{\frac {a}{2R}}+\sin ^{2}{\frac {b}{2R}}-2\sin ^{2}{\frac {a}{2R}}\sin ^{2}{\frac {b}{2R}}\,.}  
+Hyperbolic geometry
+Main article: Hyperbolic geometry
+See also: Hyperbolic triangle and Gaussian curvature
+ 
+Hyperbolic triangle
+In a hyperbolic space with uniform curvature ?1/R2, for a right triangle with legs a, b, and hypotenuse c, the relation between the sides takes the form:[66]
+cosh ? c R = cosh ? a R cosh ? b R {\displaystyle \cosh {\frac {c}{R}}=\cosh {\frac {a}{R}}\,\cosh {\frac {b}{R}}}  
+where cosh is the hyperbolic cosine. This formula is a special form of the hyperbolic law of cosines that applies to all hyperbolic triangles:[67]
+cosh ? c R = cosh ? a R   cosh ? b R ? sinh ? a R   sinh ? b R   cos ? ?   , {\displaystyle \cosh {\frac {c}{R}}=\cosh {\frac {a}{R}}\ \cosh {\frac {b}{R}}-\sinh {\frac {a}{R}}\ \sinh {\frac {b}{R}}\ \cos \gamma \ ,}  
+with ? the angle at the vertex opposite the side c.
+By using the Maclaurin series for the hyperbolic cosine, cosh x ? 1 + x2/2, it can be shown that as a hyperbolic triangle becomes very small (that is, as a, b, and c all approach zero), the hyperbolic relation for a right triangle approaches the form of Pythagoras's theorem.
+For small right triangles (a, b << R), the hyperbolic cosines can be eliminated to avoid loss of significance, giving
+sinh 2 ? c 2 R = sinh 2 ? a 2 R + sinh 2 ? b 2 R + 2 sinh 2 ? a 2 R sinh 2 ? b 2 R . {\displaystyle \sinh ^{2}{\frac {c}{2R}}=\sinh ^{2}{\frac {a}{2R}}+\sinh ^{2}{\frac {b}{2R}}+2\sinh ^{2}{\frac {a}{2R}}\sinh ^{2}{\frac {b}{2R}}\,.}  
+Very small triangles
+For any uniform curvature K (positive, zero, or negative), in very small right triangles (|K|a2, |K|b2 << 1) with hypotenuse c, it can be shown that
+c 2 = a 2 + b 2 ? K 3 a 2 b 2 ? K 2 45 a 2 b 2 ( a 2 + b 2 ) ? 2 K 3 945 a 2 b 2 ( a 2 ? b 2 ) 2 + O ( K 4 c 10 ) . {\displaystyle c^{2}=a^{2}+b^{2}-{\frac {K}{3}}a^{2}b^{2}-{\frac {K^{2}}{45}}a^{2}b^{2}(a^{2}+b^{2})-{\frac {2K^{3}}{945}}a^{2}b^{2}(a^{2}-b^{2})^{2}+O(K^{4}c^{10})\,.}  
+Differential geometry
+Main article: Differential geometry
+ 
+Distance between infinitesimally separated points in Cartesian coordinates (top) and polar coordinates (bottom), as given by Pythagoras's theorem
+On an infinitesimal level, in three dimensional space, Pythagoras's theorem describes the distance between two infinitesimally separated points as:
+d s 2 = d x 2 + d y 2 + d z 2 , {\displaystyle ds^{2}=dx^{2}+dy^{2}+dz^{2},\,}  
+with ds the element of distance and (dx, dy, dz) the components of the vector separating the two points. Such a space is called a Euclidean space. However, in Riemannian geometry, a generalization of this expression useful for general coordinates (not just Cartesian) and general spaces (not just Euclidean) takes the form:[68]
+d s 2 = ? i , j n g i j d x i d x j {\displaystyle ds^{2}=\sum _{i,j}^{n}g_{ij}\,dx_{i}\,dx_{j}}  
+which is called the metric tensor. (Sometimes, by abuse of language, the same term is applied to the set of coefficients gij.) It may be a function of position, and often describes curved space. A simple example is Euclidean (flat) space expressed in curvilinear coordinates. For example, in polar coordinates:
+d s 2 = d r 2 + r 2 d ? 2   . {\displaystyle ds^{2}=dr^{2}+r^{2}d\theta ^{2}\ .}  
+There is debate whether the Pythagorean theorem was discovered once, or many times in many places, and the date of first discovery is uncertain, as is the date of the first proof. According to Joran Friberg, a historian of mathematics, evidence indicates that the Pythagorean theorem was well-known to the mathematicians of the First Babylonian Dynasty (20th to 16th centuries BC), which would have been over a thousand years before Pythagoras was born, thus an example of Stigler's law of eponymy.[69] (Yale's Institute for the Preservation of Cultural Heritage's 3-D scan of a cuneiform tablet depicting the proof is one of their mostly widely used images.)[70] Other sources, such as a book by Leon Lederman and Dick Teresi, mention that Pythagoras discovered the theorem,[71] although Teresi subsequently stated that the Babylonians developed the theorem "at least fifteen hundred years before Pythagoras was born."[72] The history of the theorem can be divided into four parts: knowledge of Pythagorean triples, knowledge of the relationship among the sides of a right triangle, knowledge of the relationships among adjacent angles, and proofs of the theorem within some deductive system.
+Bartel Leendert van der Waerden (1903–1996) conjectured that Pythagorean triples were discovered algebraically by the Babylonians.[73] Written between 2000 and 1786 BC, the Middle Kingdom Egyptian Berlin Papyrus 6619 includes a problem whose solution is the Pythagorean triple 6:8:10, but the problem does not mention a triangle. The Mesopotamian tablet Plimpton 322, written between 1790 and 1750 BC during the reign of Hammurabi the Great, contains many entries closely related to Pythagorean triples.
+In India, the Baudhayana Sulba Sutra, the dates of which are given variously as between the 8th and 5th century BC,[74] contains a list of Pythagorean triples discovered algebraically, a statement of the Pythagorean theorem, and a geometrical proof of the Pythagorean theorem for an isosceles right triangle. The Apastamba Sulba Sutra (c. 600 BC) contains a numerical proof of the general Pythagorean theorem, using an area computation. Van der Waerden believed that "it was certainly based on earlier traditions". Carl Boyer states that the Pythagorean theorem in ?ulba-s?tram may have been influenced by ancient Mesopotamian math, but there is no conclusive evidence in favor or opposition of this possibility.[75]
+ 
+Geometric proof of the Pythagorean theorem from the Zhou Bi Suan Jing.
+With contents known much earlier, but in surviving texts dating from roughly the 1st century BC, the Chinese text Zhou Bi Suan Jing (????), (The Arithmetical Classic of the Gnomon and the Circular Paths of Heaven) gives a reasoning for the Pythagorean theorem for the (3, 4, 5) triangle—in China it is called the "Gougu theorem" (????).[76][77] During the Han Dynasty (202 BC to 220 AD), Pythagorean triples appear in The Nine Chapters on the Mathematical Art,[78] together with a mention of right triangles.[79] Some believe the theorem arose first in China,[80] where it is alternatively known as the "Shang Gao theorem" (????),[81] named after the Duke of Zhou's astronomer and mathematician, whose reasoning composed most of what was in the Zhou Bi Suan Jing.[82]
+Pythagoras, whose dates are commonly given as 569–475 BC, used algebraic methods to construct Pythagorean triples, according to Proclus's commentary on Euclid. Proclus, however, wrote between 410 and 485 AD. According to Thomas L. Heath (1861–1940), no specific attribution of the theorem to Pythagoras exists in the surviving Greek literature from the five centuries after Pythagoras lived.[83] However, when authors such as Plutarch and Cicero attributed the theorem to Pythagoras, they did so in a way which suggests that the attribution was widely known and undoubted.[4][84] "Whether this formula is rightly attributed to Pythagoras personally, [...] one can safely assume that it belongs to the very oldest period of Pythagorean mathematics."[37]
+Around 400 BC, according to Proclus, Plato gave a method for finding Pythagorean triples that combined algebra and geometry. Around 300 BC, in Euclid's Elements, the oldest extant axiomatic proof of the theorem is presented.[85]
+The Pythagorean theorem has arisen in popular culture in a variety of ways.
+John Aubrey in his Brief Lives records of Thomas Hobbes that "He was forty years old before he looked on geometry; which happened accidentally. Being in a gentleman's library Euclid's Elements lay open, and 'twas the forty-seventh proposition* in the first book. He read the proposition. 'By G ,' said he, 'this is impossible!' So he reads the demonstration of it, which referred him back to such a proof; which referred him back to another, which he also read. Et sic deinceps, that at last he was demonstratively convinced of that truth. This made him in love with geometry." 
+Hans Christian Andersen wrote in 1831 a poem about the Pythagorean theorem: Formens Evige Magie (Et poetisk Spilfægteri).[86] 
+A verse of the Major-General's Song in the Gilbert and Sullivan comic opera The Pirates of Penzance, "About binomial theorem I'm teeming with a lot o' news, With many cheerful facts about the square of the hypotenuse", makes an oblique reference to the theorem.[87] 
+The Scarecrow in the film The Wizard of Oz makes a more specific reference to the theorem. Upon receiving his diploma from the Wizard, he immediately exhibits his "knowledge" by reciting a mangled and incorrect version of the theorem: "The sum of the square roots of any two sides of an isosceles triangle is equal to the square root of the remaining side. Oh, joy! Oh, rapture! I've got a brain!"[88][89] 
+In 2000, Uganda released a coin with the shape of an isosceles right triangle. The coin's tail has an image of Pythagoras and the equation ?2 + ?2 = ?2, accompanied with the mention "PYTHAGORAS MILLENNIUM".[90] 
+Greece, Japan, San Marino, Sierra Leone, and Suriname have issued postage stamps depicting Pythagoras and the Pythagorean theorem.[91] 
+In Neal Stephenson's speculative fiction Anathem, the Pythagorean theorem is referred to as 'the Adrakhonic theorem'. A geometric proof of the theorem is displayed on the side of an alien ship to demonstrate the aliens' understanding of mathematics. 
+

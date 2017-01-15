@@ -1,0 +1,35 @@
+Commutativity of conjunction
+In propositional logic, the commutativity of conjunction is a valid argument form and truth-functional tautology. It is considered to be a law of classical logic. It is the principle that the conjuncts of a logical conjunction may switch places with each other, while preserving the truth-value of the resulting proposition.[1]
+Formal notation
+Commutativity of conjunction can be expressed in sequent notation as:
+( P ? Q ) ? ( Q ? P ) {\displaystyle (P\land Q)\vdash (Q\land P)}  
+and
+( Q ? P ) ? ( P ? Q ) {\displaystyle (Q\land P)\vdash (P\land Q)}  
+where ? {\displaystyle \vdash }  is a metalogical symbol meaning that ( Q ? P ) {\displaystyle (Q\land P)}  is a syntactic consequence of ( P ? Q ) {\displaystyle (P\land Q)} , in the one case, and ( P ? Q ) {\displaystyle (P\land Q)}  is a syntactic consequence of ( Q ? P ) {\displaystyle (Q\land P)}  in the other, in some logical system;
+or in rule form:
+P ? Q ? Q ? P {\displaystyle {\frac {P\land Q}{\therefore Q\land P}}}  
+and
+Q ? P ? P ? Q {\displaystyle {\frac {Q\land P}{\therefore P\land Q}}}  
+where the rule is that wherever an instance of " ( P ? Q ) {\displaystyle (P\land Q)} " appears on a line of a proof, it can be replaced with " ( Q ? P ) {\displaystyle (Q\land P)} " and wherever an instance of " ( Q ? P ) {\displaystyle (Q\land P)} " appears on a line of a proof, it can be replaced with " ( P ? Q ) {\displaystyle (P\land Q)} ";
+or as the statement of a truth-functional tautology or theorem of propositional logic:
+( P ? Q ) ? ( Q ? P ) {\displaystyle (P\land Q)\to (Q\land P)}  
+and
+( Q ? P ) ? ( P ? Q ) {\displaystyle (Q\land P)\to (P\land Q)}  
+where P {\displaystyle P}  and Q {\displaystyle Q}  are propositions expressed in some formal system.
+Generalized principle
+For any propositions H1, H2, ... Hn, and permutation ?(n) of the numbers 1 through n, it is the case that:
+H1 ? {\displaystyle \land }  H2 ? {\displaystyle \land }  ... ? {\displaystyle \land }  Hn 
+is equivalent to
+H?(1) ? {\displaystyle \land }  H?(2) ? {\displaystyle \land }  H?(n). 
+For example, if H1 is
+It is raining 
+H2 is
+Socrates is mortal 
+and H3 is
+2+2=4 
+then
+It is raining and Socrates is mortal and 2+2=4
+is equivalent to
+Socrates is mortal and 2+2=4 and it is raining
+and the other orderings of the predicates.
+

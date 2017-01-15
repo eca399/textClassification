@@ -1,0 +1,27 @@
+Biconditional introduction
+In propositional logic, biconditional introduction[1][2][3] is a valid rule of inference. It allows for one to infer a biconditional from two conditional statements. The rule makes it possible to introduce a biconditional statement into a logical proof. If P ? Q {\displaystyle P\to Q}  is true, and if Q ? P {\displaystyle Q\to P}  is true, then one may infer that P ? Q {\displaystyle P\leftrightarrow Q}  is true. For example, from the statements "if I'm breathing, then I'm alive" and "if I'm alive, then I'm breathing", it can be inferred that "I'm breathing if and only if I'm alive". Biconditional introduction is the converse of biconditional elimination. The rule can be stated formally as:
+P ? Q , Q ? P ? P ? Q {\displaystyle {\frac {P\to Q,Q\to P}{\therefore P\leftrightarrow Q}}}  
+where the rule is that wherever instances of " P ? Q {\displaystyle P\to Q} " and " Q ? P {\displaystyle Q\to P} " appear on lines of a proof, " P ? Q {\displaystyle P\leftrightarrow Q} " can validly be placed on a subsequent line.
+Formal notation
+The biconditional introduction rule may be written in sequent notation:
+( P ? Q ) , ( Q ? P ) ? ( P ? Q ) {\displaystyle (P\to Q),(Q\to P)\vdash (P\leftrightarrow Q)}  
+where ? {\displaystyle \vdash }  is a metalogical symbol meaning that P ? Q {\displaystyle P\leftrightarrow Q}  is a syntactic consequence when P ? Q {\displaystyle P\to Q}  and Q ? P {\displaystyle Q\to P}  are both in a proof;
+or as the statement of a truth-functional tautology or theorem of propositional logic:
+( ( P ? Q ) ? ( Q ? P ) ) ? ( P ? Q ) {\displaystyle ((P\to Q)\land (Q\to P))\to (P\leftrightarrow Q)}  
+where P {\displaystyle P} , and Q {\displaystyle Q}  are propositions expressed in some formal system.
+Biconditional elimination
+Biconditional elimination is the name of two valid rules of inference of propositional logic. It allows for one to infer a conditional from a biconditional. If ( P ? Q ) {\displaystyle (P\leftrightarrow Q)}  is true, then one may infer that ( P ? Q ) {\displaystyle (P\to Q)}  is true, and also that ( Q ? P ) {\displaystyle (Q\to P)}  is true.[1] For example, if it's true that I'm breathing if and only if I'm alive, then it's true that if I'm breathing, I'm alive; likewise, it's true that if I'm alive, I'm breathing. The rules can be stated formally as:
+( P ? Q ) ? ( P ? Q ) {\displaystyle {\frac {(P\leftrightarrow Q)}{\therefore (P\to Q)}}}  
+and
+( P ? Q ) ? ( Q ? P ) {\displaystyle {\frac {(P\leftrightarrow Q)}{\therefore (Q\to P)}}}  
+where the rule is that wherever an instance of " ( P ? Q ) {\displaystyle (P\leftrightarrow Q)} " appears on a line of a proof, either " ( P ? Q ) {\displaystyle (P\to Q)} " or " ( Q ? P ) {\displaystyle (Q\to P)} " can be placed on a subsequent line;
+Formal notation
+The biconditional elimination rule may be written in sequent notation:
+( P ? Q ) ? ( P ? Q ) {\displaystyle (P\leftrightarrow Q)\vdash (P\to Q)}  
+and
+( P ? Q ) ? ( Q ? P ) {\displaystyle (P\leftrightarrow Q)\vdash (Q\to P)}  
+where ? {\displaystyle \vdash }  is a metalogical symbol meaning that ( P ? Q ) {\displaystyle (P\to Q)} , in the first case, and ( Q ? P ) {\displaystyle (Q\to P)}  in the other are syntactic consequences of ( P ? Q ) {\displaystyle (P\leftrightarrow Q)}  in some logical system;
+or as the statement of a truth-functional tautology or theorem of propositional logic:
+( P ? Q ) ? ( P ? Q ) {\displaystyle (P\leftrightarrow Q)\to (P\to Q)}  
+( P ? Q ) ? ( Q ? P ) {\displaystyle (P\leftrightarrow Q)\to (Q\to P)}  
+where P {\displaystyle P} , and Q {\displaystyle Q}  are propositions expressed in some formal system.

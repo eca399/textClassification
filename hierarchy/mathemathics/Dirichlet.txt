@@ -1,0 +1,4 @@
+Dirichlet's Theorem
+Given an arithmetic progression of terms , for , 2, ..., the series contains an infinite number of primes if  and  are relatively prime, i.e., . This result had been conjectured by Gauss (Derbyshire 2004, p. 96), but was first proved by Dirichlet (1837). 
+Dirichlet proved this theorem using Dirichlet L-series, but the proof is challenging enough that, in their classic text on number theory, the usually explicit Hardy and Wright (1979) report "this theorem is too difficult for insertion in this book." 
+

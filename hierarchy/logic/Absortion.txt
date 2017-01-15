@@ -1,0 +1,22 @@
+Absorption law
+In algebra, the absorption law or absorption identity is an identity linking a pair of binary operations.
+Two binary operations, ¤ and ?, are said to be connected by the absorption law if:
+a ¤ (a ? b) = a ? (a ¤ b) = a. 
+A set equipped with two commutative, associative and idempotent binary operations ? {\displaystyle \scriptstyle \lor }  ("join") and ? {\displaystyle \scriptstyle \land }  ("meet") that are connected by the absorption law is called a lattice.
+Examples of lattices include Boolean algebras, the set of sets with union and intersection operators, Heyting algebras, and ordered sets with min and max operations.
+In classical logic, and in particular Boolean algebra, the operations OR and AND, which are also denoted by ? {\displaystyle \scriptstyle \lor }  and ? {\displaystyle \scriptstyle \land } , satisfy the lattice axioms, including the absorption law. The same is true for intuitionistic logic.
+The absorption law does not hold in many other algebraic structures, such as commutative rings, e.g. the field of real numbers, relevance logics, linear logics, and substructural logics. In the last case, there is no one-to-one correspondence between the free variables of the defining pair of identities.
+Absorption (logic)
+Absorption is a valid argument form and rule of inference of propositional logic.[1][2] The rule states that if P {\displaystyle P}  implies Q {\displaystyle Q} , then P {\displaystyle P}  implies P {\displaystyle P}  and Q {\displaystyle Q} . The rule makes it possible to introduce conjunctions to proofs. It is called the law of absorption because the term Q {\displaystyle Q}  is "absorbed" by the term P {\displaystyle P}  in the consequent.[3] The rule can be stated:
+P ? Q ? P ? ( P ? Q ) {\displaystyle {\frac {P\to Q}{\therefore P\to (P\land Q)}}}  
+where the rule is that wherever an instance of " P ? Q {\displaystyle P\to Q} " appears on a line of a proof, " P ? ( P ? Q ) {\displaystyle P\to (P\land Q)} " can be placed on a subsequent line.
+Formal notation
+The absorption rule may be expressed as a sequent:
+P ? Q ? P ? ( P ? Q ) {\displaystyle P\to Q\vdash P\to (P\land Q)}  
+where ? {\displaystyle \vdash }  is a metalogical symbol meaning that P ? ( P ? Q ) {\displaystyle P\to (P\land Q)}  is a syntactic consequences of ( P ? Q ) {\displaystyle (P\rightarrow Q)}  in some logical system;
+and expressed as a truth-functional tautology or theorem of propositional logic. The principle was stated as a theorem of propositional logic by Russell and Whitehead in Principia Mathematica as:
+( P ? Q ) ? ( P ? ( P ? Q ) ) {\displaystyle (P\to Q)\leftrightarrow (P\to (P\land Q))}  
+where P {\displaystyle P} , and Q {\displaystyle Q}  are propositions expressed in some formal system.
+Examples
+If it will rain, then I will wear my coat.
+Therefore, if it will rain then it will rain and I will wear my coat. 

@@ -1,0 +1,29 @@
+
+Proof of Fermat's Little Theorem 
+(From the Prime Pages' list of proofs)
+Fermat's "biggest", and also his "last" theorem states that xn + yn = zn has no solutions in positive integers x, y, z with n > 2. This has finally been proven by Wiles in 1995. Here we are concerned with his "little" but perhaps his most used theorem which he stated in a letter to Fre'nicle on 18 October 1640:
+
+Fermat's Little Theorem.
+    Let p be a prime which does not divide the integer a, then ap-1 = 1 (mod p). 
+
+It is so easy to calculate ap-1 that most elementary primality tests are built using a version of Fermat's Little Theorem rather than Wilson's Theorem.
+
+As usual Fermat did not provide a proof (this time saying "I would send you the demonstration, if I did not fear its being too long" [Burton80, p79]). Euler first published a proof in 1736, but Leibniz left virtually the same proof in an unpublished manuscript from sometime before 1683.
+
+Proof.
+    Start by listing the first p-1 positive multiples of a:
+
+        a, 2a, 3a, ... (p -1)a 
+
+    Suppose that ra and sa are the same modulo p, then we have r = s (mod p), so the p-1 multiples of a above are distinct and nonzero; that is, they must be congruent to 1, 2, 3, ..., p-1 in some order. Multiply all these congruences together and we find
+
+        a.2a.3a.....(p-1)a = 1.2.3.....(p-1) (mod p) 
+
+    or better, a(p-1)(p-1)! = (p-1)! (mod p). Divide both side by (p-1)! to complete the proof. 
+
+Sometimes Fermat's Little Theorem is presented in the following form:
+
+Corollary.
+    Let p be a prime and a any integer, then ap = a (mod p).
+Proof.
+    The result is trival (both sides are zero) if p divides a. If p does not divide a, then we need only multiply the congruence in Fermat's Little Theorem by a to complete the proof. 

@@ -1,0 +1,20 @@
+Intercept theorem
+The intercept theorem, also known as Thales' theorem (not to be confused with another theorem with that name), is an important theorem in elementary geometry about the ratios of various line segments that are created if two intersecting lines are intercepted by a pair of parallels. It is equivalent to the theorem about ratios in similar triangles. Traditionally it is attributed to Greek mathematician Thales.
+Formulation
+Suppose S is the intersection point of two lines and A, B are the intersections of the first line with the two parallels, such that B is further away from S than A, and similarly C, D are the intersections of the second line with the two parallels such that D is further away from S than C.
+1. The ratios of any two segments on the first line equals the ratios of the according segments on the second line: | S A | : | A B | = | S C | : | C D | {\displaystyle |SA|:|AB|=|SC|:|CD|} , | S B | : | A B | = | S D | : | C D | {\displaystyle |SB|:|AB|=|SD|:|CD|} , | S A | : | S B | = | S C | : | S D | {\displaystyle |SA|:|SB|=|SC|:|SD|}  
+2. The ratio of the two segments on the same line starting at S equals the ratio of the segments on the parallels: | S A | : | S B | = | S C | : | S D | = | A C | : | B D | {\displaystyle |SA|:|SB|=|SC|:|SD|=|AC|:|BD|}  
+The converse of the first statement is true as well, i.e. if the two intersecting lines are intercepted by two arbitrary lines and | S A | : | A B | = | S C | : | C D | {\displaystyle |SA|:|AB|=|SC|:|CD|}  holds then the two intercepting lines are parallel. However the converse of the second statement is not true. 
+3. If you have more than two lines intersecting in S, then ratio of the two segments on a parallel equals the ratio of the according segments on the other parallel: | A F | : | B E | = | F C | : | E D | {\displaystyle |AF|:|BE|=|FC|:|ED|}  , | A F | : | F C | = | B E | : | E D | {\displaystyle |AF|:|FC|=|BE|:|ED|}  
+An example for the case of three lines is given the second graphic below. 
+The first intercept theorem shows the ratios of the sections from the lines, the second the ratios of the sections from the lines as well as the sections from the parallels, finally the third shows the ratios of the sections from the parallels.
+Similarity and similar triangles 
+Arranging two similar triangles, so that the intercept theorem can be applied
+The intercept theorem is closely related to similarity. It is equivalent to the concept of similar triangles, i.e. it can be used to prove the properties of similar triangles and similar triangles can be used to prove the intercept theorem. By matching identical angles you can always place two similar triangles in one another so that you get the configuration in which the intercept theorem applies; and conversely the intercept theorem configuration always contains two similar triangles.
+Algebraic formulation of compass and ruler constructions
+There are three famous problems in elementary geometry which were posed by the Greeks in terms of Compass and straightedge constructions:[2]
+1. Trisecting the angle 
+2. Doubling the cube 
+3. Squaring the circle 
+Their solution took more than 2000 years until all three of them finally were settled in the 19th century using algebraic methods that had become available during that period of time. In order to reformulate them in algebraic terms using field extensions, one needs to match field operations with compass and straightedge constructions. In particular it is important to assure that for two given line segments, a new line segment can be constructed such that its length equals the product of lengths of the other two. Similarly one needs to be able to construct, for a line segment of length d {\displaystyle d} , a new line segment of length d ? 1 {\displaystyle d^{-1}} . The intercept theorem can be used to show that in both cases such a construction is possible.
+

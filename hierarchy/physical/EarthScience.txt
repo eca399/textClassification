@@ -1,0 +1,116 @@
+Earth science
+Earth science or geoscience is an all-embracing term for the fields of science related to the planet Earth.[1] It can be considered to be a branch of planetary science, but with a much older history. There are both reductionist and holistic approaches to Earth sciences. The Earth sciences can include the study of geology, the lithosphere, and the large-scale structure of the Earth's interior, as well as the atmosphere, hydrosphere, and biosphere. Typically, Earth scientists use tools from geography, physics, chemistry, biology, chronology, and mathematics to build a quantitative understanding of how the Earth system works and evolves.
+
+The following fields of science are generally categorized within the Earth sciences:
+Physical geography, covers aspects of geomorphology, soil study, hydrology, meteorology, climatology, and biogeography.[2] 
+Geology describes the rocky parts of the Earth's crust (or lithosphere) and its historic development. Major subdisciplines are mineralogy and petrology, geochemistry, geomorphology, paleontology, stratigraphy, structural geology, engineering geology, and sedimentology.[3][4] 
+Geophysics and geodesy investigate the shape of the Earth, its reaction to forces and its magnetic and gravity fields. Geophysicists explore the Earth's core and mantle as well as the tectonic and seismic activity of the lithosphere.[4][5][6] Geophysics is commonly used to supplement the work of geologists in developing a comprehensive understanding of crustal geology, particularly in mineral and petroleum exploration. See geophysical survey. 
+Soil science covers the outermost layer of the Earth's crust that is subject to soil formation processes (or pedosphere).[7] Major subdisciplines include edaphology and pedology.[8] 
+Ecology covers the interactions between the biota, with their natural environment. This field of study differentiates the study of the Earth, from the study of other planets in the Solar System; the Earth being the only planet teeming with life. 
+Hydrology (includes oceanography and limnology) describe the marine and freshwater domains of the watery parts of the Earth (or hydrosphere). Major subdisciplines include hydrogeology and physical, chemical, and biological oceanography.[citation needed] 
+Glaciology covers the icy parts of the Earth (or cryosphere). 
+Atmospheric sciences cover the gaseous parts of the Earth (or atmosphere) between the surface and the exosphere (about 1000 km). Major subdisciplines include meteorology, climatology, atmospheric chemistry, and atmospheric physics. 
+Earth's interior
+ 
+A volcanic eruption is the release of stored energy from below the surface of Earth.[9]
+Plate tectonics, mountain ranges, volcanoes, and earthquakes are geological phenomena that can be explained in terms of energy transformations in Earth's crust.[10]
+Beneath Earth's crust lies the mantle which is heated by the radioactive decay of heavy elements. The mantle is not quite solid and consists of magma which is in a state of semi-perpetual convection. This convection process causes the lithospheric plates to move, albeit slowly. The resulting process is known as plate tectonics.[11][12][13][14]
+Plate tectonics might be thought of as the process by which the Earth is resurfaced. Through a process called seafloor spreading, new crust is created by the flow of magma from underneath the lithosphere to the surface, through fissures, where it cools and solidifies. Through a process called subduction, oceanic crust is pushed underground — beneath the rest of the lithosphere—where it comes into contact with magma and melts—rejoining the mantle from which it originally came.[12][14][15]
+Areas of the crust where new crust is created are called divergent boundaries, those where it is brought back into the Earth are convergent boundaries and those where plates slide past each other, but no new lithospheric material is created or destroyed, are referred to as transform (or conservative) boundaries[12][14][16] Earthquakes result from the movement of the lithospheric plates, and they often occur near convergent boundaries where parts of the crust are forced into the Earth as part of subduction.[17]
+Volcanoes result primarily from the melting of subducted crust material. Crust material that is forced into the asthenosphere melts, and some portion of the melted material becomes light enough to rise to the surface—giving birth to volcanoes.[12][17]
+Earth's electromagnetic field
+An electromagnet is a magnet that is created by a current that flows around a soft iron core.[18] Earth has a solid iron inner core surrounded by semi-liquid materials of the outer core that move in continuous currents around the inner core;[19] therefore, the Earth is an electromagnet. This is referred to as the dynamo theory of Earth's magnetism.[19][20]
+Earth's atmosphere
+Main article: Atmosphere of Earth
+ 
+The magnetosphere shields the surface of Earth from the charged particles of the solar wind.
+(image not to scale.)
+The troposphere, stratosphere, mesosphere, thermosphere, and exosphere are the five layers which make up Earth's atmosphere. In all, the atmosphere is made up of about 78.0% nitrogen, 20.9% oxygen, and 0.92% argon. 75% of the gases in the atmosphere are located within the troposphere, the bottom-most layer. The remaining one percent of the atmosphere (all but the nitrogen, oxygen, and argon) contains small amounts of other gases including CO2 and water vapors.[21] Water vapors and CO2 allow the Earth's atmosphere to catch and hold the Sun's energy through a phenomenon called the greenhouse effect.[22] This allows Earth's surface to be warm enough to have liquid water and support life.
+The magnetic field created by the internal motions of the core produces the magnetosphere which protects the Earth's atmosphere from the solar wind.[23] As the Earth is 4.5 billion years old,[24] it would have lost its atmosphere by now if there were no protective magnetosphere.
+In addition to storing heat, the atmosphere also protects living organisms by shielding the Earth's surface from cosmic rays. Note that the level of protection is high enough to prevent cosmic rays from destroying all life on Earth, yet low enough to aid the mutations that have an important role in pushing forward diversity in the biosphere.[citation needed]
+Methodology
+Methodologies vary depending on the nature of the subjects being studied. Studies typically fall into one of three categories: observational, experimental, or theoretical. Earth scientists often conduct sophisticated computer analysis or go to many of the world's most exotic locations to study Earth phenomena (e.g. Antarctica or hot spot island chains).
+A foundational idea within the study Earth science is the notion of uniformitarianism. Uniformitarianism dictates that "ancient geologic features are interpreted by understanding active processes that are readily observed."[citation needed] In other words, any geologic processes at work in the present have operated in the same ways throughout geologic time. This enables those who study Earth's history to apply knowledge of how Earth processes operate in the present to gain insight into how the planet has evolved and changed throughout deep history.
+Earth's spheres
+Earth science generally recognizes four spheres, the lithosphere, the hydrosphere, the atmosphere, and the biosphere;[25] these correspond to rocks, water, air and life. Also included by some are the cryosphere (corresponding to ice) as a distinct portion of the hydrosphere and the pedosphere (corresponding to soil) as an active and intermixed sphere.
+Partial list of the major earth science topics
+Further information: Outline of Earth sciences
+Atmosphere
+Atmospheric chemistry 
+Geography 
+Climatology 
+Meteorology 
+Hydrometeorology 
+Paleoclimatology 
+Biosphere
+Biogeochemistry 
+Biogeography 
+Ecology 
+Landscape ecology 
+Geoarchaeology 
+Geomicrobiology 
+Paleontology 
+Palynology 
+Micropaleontology 
+Hydrosphere
+Hydrology 
+Hydrogeology 
+Limnology (freshwater science) 
+Oceanography (marine science) 
+Chemical oceanography 
+Physical oceanography 
+Biological oceanography (marine biology) 
+Geological oceanography (marine geology) 
+Paleoceanography 
+Lithosphere (geosphere)
+Geology 
+Economic geology 
+Engineering geology 
+Environmental geology 
+Historical geology 
+Quaternary geology 
+Planetary geology and planetary geography 
+Sedimentology 
+Stratigraphy 
+Structural geology 
+Geography 
+Physical geography 
+Geochemistry 
+Geomorphology 
+Geophysics 
+Geochronology 
+Geodynamics (see also Tectonics) 
+Geomagnetism 
+Gravimetry (also part of Geodesy) 
+Seismology 
+Glaciology 
+Hydrogeology 
+Mineralogy 
+Crystallography 
+Gemology 
+Petrology 
+Speleology 
+Volcanology 
+Pedosphere
+Geography 
+Soil science 
+Edaphology 
+Pedology 
+Systems
+Earth system science 
+Environmental science 
+Geography 
+Human geography 
+Physical geography 
+Gaia hypothesis 
+Systems ecology 
+Systems geology 
+Others
+Geography 
+Cartography 
+Geoinformatics (GIS) 
+Geostatistics 
+Geodesy and Surveying 
+NASA Earth Science Enterprise 
+Remote Sensing 
+
